@@ -1,0 +1,690 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+ul li a:hover {
+    background-color: darkgoldenrod;
+    color: white;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.home {
+    display: flex;
+    background-image: url('picture-for-illustration-purposes.png');
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    justify-items: center;
+}
+
+
+
+.navbar1 {
+
+    background-color: #fff;
+}
+
+.navbar a {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.heading {
+    margin-top: 180px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reserve {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid burlywood;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+    align-content: center;
+
+    padding: 15px 0;
+}
+
+.reserve a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 56px;
+}
+
+a:hover {
+    background-color: burlywood;
+}
+
+/* about us*/
+.head1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 2rem;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.row .about-img {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.span1 {
+    color: #deb887;
+}
+
+.content {
+    flex: 1 1 50rem;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p1 {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+.content h6 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1 {
+    display: inline-block;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid burlywood;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #deb887;
+    color: black;
+    text-align: center;
+}
+
+.quote {
+    height: 19rem;
+    background-image: url('Bg_5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+.p2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.quote-name {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    padding-left: 20rem;
+    margin-bottom: 45px;
+}
+
+.menu {
+    text-align: center;
+    padding: 30px;
+}
+
+.head3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.p3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.nav1 {
+    width: 50%;
+    margin: auto;
+
+}
+
+.nav1 ul {
+    margin: auto;
+}
+
+.list1 {
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    margin: auto;
+    padding: 0 2.5rem;
+}
+
+ul,
+li {
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.items {
+    padding: 20px;
+
+}
+
+.drink1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_1.jpg');
+}
+
+.drink2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_2.jpg');
+}
+
+.drink3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_3.jpg');
+}
+
+.lunch1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_1.jpg');
+}
+
+.lunch2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_2-1.jpg');
+}
+
+.lunch3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_3.jpg');
+}
+
+.dinner1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_1.jpg');
+}
+
+.dinner2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_2.jpg');
+}
+
+.dinner3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_3.jpg');
+
+}
+
+.demo {
+    display: inline-block;
+    margin: 1.7rem 1rem;
+    background-size: cover;
+}
+
+.name {
+    padding: 25px;
+    color: #fff;
+}
+
+.h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.rate {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 0.5rem 2rem 1rem 0.8rem;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
+}
+
+.name-text {
+    border-bottom: 2px dotted black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-bottom: 2.5rem;
+    margin: 0.5rem 2rem 2rem 2rem;
+}
+
+
+.gallery h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.gallery p {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    padding: 1.5% 6%;
+}
+
+.gallery-img {
+    height: 250px;
+    width: 350px;
+    margin: 1.5rem 1rem;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.customer {
+    text-align: center;
+    padding: 2.5rem 2rem 3rem 2rem;
+}
+
+.review h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.review p {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review img {
+
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 0.4rem;
+}
+
+.customer-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #deb887;
+}
+
+.customer_review {
+    font-size: 20px;
+    margin-top: 2rem;
+    line-height: 25px;
+}
+
+.contact {
+    display: inline-block;
+    width: 32%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contact_info {
+    margin: auto;
+    background-color: #d0a772;
+    color: #fff;
+}
+
+.image-div {
+    height: 30px;
+    width: 30px;
+}
+
+.phoneno {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.email {
+    display: inline-block;
+    width: 32%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.email-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.location {
+    display: inline-block;
+    width: 32%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.location-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-img {
+    width: 60px;
+    color: white;
+}
+
+.contact-div {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    background-color: #d0a772;
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly;
+}
+
+.contact-div p {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+    height: 22rem;
+    width: 100%;
+    background-color: lightgray;
+    /*
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../images/bg_footer.jpg");
+    */
+    color: #fff;
+    padding: 3rem;
+}
+
+.footer1 {
+    height: 250px;
+    margin: 1rem 2rem;
+}
+
+.footer-h3 {
+    border-bottom: 2px dotted rgba(207, 166, 113, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 25px;
+}
+
+.email {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.btn {
+    background-color: #d0a772;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0.8rem;
+    line-height: 25px;
+    width: 100%;
+}
+
+.social {
+    display: block;
+    margin: auto;
+}
+
+.social img {
+    width: 90px;
+    height: 90px;
+}
+
+.social a:hover{
+    background-color: #d0a772;
+}
+
+.copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+/*media query*/
+@media screen and (max-width: 600px) {
+    .small-header {
+        display: block;
+    }
+
+    .navbar1 {
+        display: none;
+    }
+
+    .small-header,
+    .navbar,
+    nav,
+    ul {
+        height: 55%;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    ul li {
+        height: 50px;
+    }
+
+    ul li a {
+        margin: 0px;
+    }
+
+    ul li a:hover {
+        background-color: darkgoldenrod;
+        color: white;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .small-header {
+        display: none;
+    }
+
+    .navbar1 {
+        display: block;
+    }
+}
+
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 50%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container img {
+    margin: 10px;
+    width: 40%;
+    height: 40%;
+    transition: 1s all;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+.img-div {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url("Drinks_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+table {
+    margin: auto;
+}
+
+.td-spacing {
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .small-header {
+        display: block;
+    }
+
+    .big-header {
+        display: none;
+    }
+
+    .small-header,
+    .navbar,
+    nav,
+    ul {
+        height: 55%;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    ul li {
+        height: 50px;
+    }
+
+    ul li a {
+        margin: 0px;
+    }
+
+    ul li a:hover {
+        background-color: darkgoldenrod;
+        color: white;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .small-header {
+        display: none;
+    }
+
+    .big-header {
+        display: block;
+    }
+}
+
+*/
